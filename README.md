@@ -8,6 +8,7 @@
 
  docker-compose -f docker-compose-dev.yml up
  docker-compose -f docker-compose-dev.yml run --service-ports web
+ docker-compose -f docker-compose-dev.yml stop
  ```
 
 # Linux
