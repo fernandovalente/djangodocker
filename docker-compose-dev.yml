@@ -4,6 +4,8 @@ services:
   db:
     image: postgres
     container_name: postgres
+    ports:
+      - "5432:5432"
   web:
     container_name: django
     build: .
