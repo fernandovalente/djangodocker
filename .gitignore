@@ -1,0 +1,11 @@
+*.pyc
+*.pyo
+*.db
+db.*
+*.sublime*
+**/__pycache__/*
+.coverage
+.idea/*
+.idea
+.log
+.directory
