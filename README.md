@@ -1,4 +1,4 @@
- # Create a Django project
+ # Django Docker
 
  ```
  docker-compose run web django-admin.py startproject composeexample .
